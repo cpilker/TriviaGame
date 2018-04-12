@@ -1,4 +1,9 @@
 
+body {
+    background-image: url("../images/Sports.png");    
+
+}
+
 .jumbotron {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -8,6 +13,7 @@
 .content {
     padding: 10px;
     margin: 0 0 20px 0;
+    border: 2px solid #998f8f;
     border-radius: 20px;
     text-align: center;
     font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
@@ -42,10 +48,12 @@ h5 {
 /* Button Styles */
 .btn {
     width: 400px;
+    box-shadow: 3px 3px 3px #998f8f;
+
 }
 
 .btn:hover {
     color: darkgreen;
     font-weight: bold;
-    font-size: 24px;
+    transform: scale(1.01)
 }
