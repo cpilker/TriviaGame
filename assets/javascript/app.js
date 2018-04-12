@@ -49,7 +49,7 @@
     };
 
     var q7 = {
-        question: "If Michael Phelps were a country, where would he rank on the all-time olympic gold medal list (35th)?",
+        question: "If Michael Phelps were a country, where would he rank on the all-time olympic gold medal list?",
         answers: ["<input type='radio' name='q7' value='incorrect'>18", "<input type='radio' name='q7' value='correct'>35", "<input type='radio' name='q7' value='incorrect'>32", "<input type='radio' name='q7' value='incorrect'>28"],
         flag: [false, true, false, false]
     };
