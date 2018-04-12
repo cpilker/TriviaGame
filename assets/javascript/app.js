@@ -79,6 +79,7 @@
         function run() {
         clearInterval(intervalId);
         intervalId = setInterval(decrement, 1000);
+        $(".timer").html("<h3>Time Left: " + timer + " seconds</h3>");
         };
 
         //  The decrement function.
@@ -88,13 +89,15 @@
             timer--;
 
         //  Show the number in the #timer tag.
-            $(".timer").html("<h3>Time Left: " + timer + " seconds</h3>");
+        $(".timer").html("<h3>Time Left: " + timer + " seconds</h3>");
 
         //  Once number hits zero...
             if (timer === 0) {
                 stop();
                 alert("Time Up!");
                 calculate();
+                submitButton.hide();
+                $(".results").append("<div>To try again, please reload the page</div>");
                 $(".timer").hide();
             }
         };
