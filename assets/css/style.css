@@ -1,0 +1,51 @@
+
+.jumbotron {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Start for main body */
+.content {
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    background-color: darkslategray;
+    color: #998f8f;
+}
+
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    color: red;
+    text-shadow: whitesmoke;
+}
+
+#test {
+    font-size: 18px;
+    color: white;
+}
+
+h5 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    color: #998f8f;
+}
+
+
+
+/* Button Styles */
+.btn {
+    width: 400px;
+}
+
+.btn:hover {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
