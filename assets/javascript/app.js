@@ -191,7 +191,7 @@
         };
     });
 
-    /*//Function to calculate the number correct/incorrect/unanswered
+    /*//Function to calculate the number correct/incorrect/unanswered/ THIS WAS MY FIRST ATTEMPT TO READ UNTIL I DETERMIND HOW TO HAVE THE RADIO BUTTON BE READ AS CHECKED AND PULL THE VALUE.
     $("#test").on("click","input", function() {
         if ($(this).attr("value") === "correct") {
         alert($(this).val())};
